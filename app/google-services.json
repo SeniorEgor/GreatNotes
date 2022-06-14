@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "159411806035",
+    "firebase_url": "https://greatnotes-f6ea9-default-rtdb.firebaseio.com",
+    "project_id": "greatnotes-f6ea9",
+    "storage_bucket": "greatnotes-f6ea9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159411806035:android:2043ae0fb452ad49decba6",
+        "android_client_info": {
+          "package_name": "com.example.greatnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159411806035-4himfi1avrf9kli6kbn8dgtss03m79ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPBVHMn5hOYt2RKJVBFcXulZMAUulBpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159411806035-4himfi1avrf9kli6kbn8dgtss03m79ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
