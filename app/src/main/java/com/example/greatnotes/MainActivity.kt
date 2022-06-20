@@ -8,6 +8,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.greatnotes.databinding.ActivityMainBinding
 import com.example.greatnotes.utilits.APP_ACTIVITY
+import com.example.greatnotes.utilits.AppPreference
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         navController = Navigation.findNavController(this, R.id.nav_host_fragment)
         setSupportActionBar(mToolbar)
         title = getString(R.string.title)
+        AppPreference.getPreference(this)
     }
 
     override fun onDestroy() {
